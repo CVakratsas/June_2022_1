@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./functionallity.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div class="players">
+            <h2 id="left-player">1ος Παίκτης</h2>
+            <h2 id="right-player">2ος Παίκτης</h2>
+        </div>
+        <div class="scores">
+            <p id="left-score">0</p>
+            <p id="right-score">0</p>
+        </div>
+        <div class="increment">
+            <button onclick="add_left()" id="left-btn">+1 Πόντος</button>
+            <button onclick="add_right()" id="right-btn">+1 Πόντος</button>
+        </div>
+        <div id="winning-message">Ο πρώτος παίκτης κέρδισε</div>
+    </div>
+</body>
+</html>

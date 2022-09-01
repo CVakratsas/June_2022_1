@@ -1,0 +1,58 @@
+* {
+    /* outline-style: solid;
+    outline-color: lightgreen; */
+    font-size: 20px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.players {
+    display: flex;
+    align-items: row;
+    margin-top: 50px;
+}
+
+.players h2 {
+    width: 150px;
+    font-size: 25px;
+    text-align: center;
+    margin: 0 25px;
+}
+
+.scores {
+    display: flex;
+    align-items: row;
+    margin-top: 10px;
+}
+
+.scores p {
+    width: 150px;
+    font-size: 25px;
+    margin: 0 25px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.increment {
+    display: flex;
+    align-items: row;
+    margin-top: 10px;
+}
+
+.increment button {
+    width: 150px;
+    margin: 0 25px;
+    text-align: center;
+    height: 40px;
+}
+
+#winning-message {
+    margin-top: 50px;
+    font-size: 35px;
+    visibility: hidden;
+}
